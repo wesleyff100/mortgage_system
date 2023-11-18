@@ -1,18 +1,22 @@
 package modelo;
 
 public class Apartamento extends Financiamento {
-    public Apartamento(double valorImovel, int prazoFinanciamento, double taxaJurosAnual) {
-        super(valorImovel, prazoFinanciamento, taxaJurosAnual);
-    }
+    private int numVagasGaragem;
+    private int numAndar;
 
+
+    public Apartamento(double valorImovel, int prazoFinanciamento, double taxaJurosAnual, int numAndar, int numVagasGaragem) {
+        super(valorImovel, prazoFinanciamento, taxaJurosAnual);
+        this.numAndar = numAndar;
+        this.numVagasGaragem = numVagasGaragem;
+
+    }
+        @Override
+    public String toString() {
+        return "Apartamento: " + "\n" + "Valor do imóvel: " + getValorImovel() + "\n" + "Prazo do financiamento: " + getPrazoFinanciamento() + "\n" + "Taxa de juros anual: " + getTaxaJurosAnual() + "\n" + "Número de vagas na garagem: " + numVagasGaragem + "\n" + "Número do andar: " + numAndar + "\n" + "Pagamento mensal: " + calcularPagamentoMensal() + "\n" + "Total do pagamento: " + calcularTotalPagamento() + "\n";
+    }
     @Override
     public double calcularPagamentoMensal() {
-        double taxaMensal = getTaxaJurosAnual()/12;
-        double meses = getPrazoFinanciamento()*12;
-        double valorImovel = getValorImovel();
-        double numerador = valorImovel * Math.pow((1+taxaMensal), meses);
-        double denominador = Math.pow((1+taxaMensal),meses -1);
-
-        return numerador/denominador;
+        return (getValorImovel() / getPrazoFinanciamento()) * (1 + (getTaxaJurosAnual() / 12)) + 80;
     }
 }

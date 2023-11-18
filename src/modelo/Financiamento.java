@@ -1,10 +1,11 @@
 package modelo;
 
-public class Financiamento {
+public abstract class Financiamento {
     // Atributos da classe
     private double valorImovel;
     private int prazoFinanciamento;
     private double taxaJurosAnual;
+
 
     // Construtor da classe Financiamento
     public Financiamento(double valorImovel, int prazoFinanciamento, double taxaJurosAnual) {
@@ -27,9 +28,7 @@ public class Financiamento {
     }
 
     // Método para calcular o pagamento mensal com base no valor do imóvel, prazo e taxa de juros
-    public double calcularPagamentoMensal() {
-        return (valorImovel / prazoFinanciamento) * (1 + (taxaJurosAnual / 12));
-    }
+    public abstract double calcularPagamentoMensal();
 
     // Método para calcular o total do pagamento com base no pagamento mensal e prazo do financiamento
     public double calcularTotalPagamento() {
