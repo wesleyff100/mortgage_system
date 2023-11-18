@@ -111,12 +111,12 @@ public class Main {
         try {
             FileInputStream fileIn = new FileInputStream("financiamentos.ser");
             ObjectInputStream in = new ObjectInputStream(fileIn);
-            ArrayList<String> financiamentosRecuperados = (ArrayList<String>) in.readObject();
+            ArrayList<Financiamento> financiamentosRecuperados = (ArrayList<Financiamento>) in.readObject();
             in.close();
             fileIn.close();
 
             // Printing recovered financing
-            for (String f : financiamentosRecuperados) {
+            for (Financiamento f : financiamentosRecuperados) {
                 System.out.println(f);
             }
         } catch(IOException i) {
