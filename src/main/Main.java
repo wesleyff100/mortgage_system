@@ -34,11 +34,11 @@ public class Main {
         financiamentos.add(financiamentoUsuario);
 
         // Adicionando os objetos de financiamento pré-definidos
-        financiamentos.add(new Casa(40000, 15, 11, 10, 30));
-        financiamentos.add(new Apartamento(40000, 15, 11, 2, 1));
-        financiamentos.add(new Apartamento(40000, 15, 11, 3, 1));
-        financiamentos.add(new Terreno(40000, 15, 11, "Norte"));
-        financiamentos.add(new Terreno(40000, 15, 11, "Sul"));
+        financiamentos.add(new Casa(40000, 24, 11, 10, 30));
+        financiamentos.add(new Apartamento(50000, 18, 10, 2, 1));
+        financiamentos.add(new Apartamento(60000, 72, 9, 3, 1));
+        financiamentos.add(new Terreno(90000, 36, 8, "Norte"));
+        financiamentos.add(new Terreno(30000, 24, 12, "Sul"));
 
         // Adicionando o custo de cada financiamento no total
         for(Financiamento f : financiamentos) {

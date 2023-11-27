@@ -1,44 +1,44 @@
 main.Main$1@17f052a3
 Casa: 
 Valor do imóvel: 40000.0
-Prazo do financiamento: 15
+Prazo do financiamento: 24
 Taxa de juros anual: 11.0
 Área construída: 10.0
 Tamanho do terreno: 30.0
-Pagamento mensal: 5191.11111111111
-Total do pagamento: 77866.66666666666
+Pagamento mensal: 3274.4444444444443
+Total do pagamento: 78586.66666666666
 
 Apartamento: 
-Valor do imóvel: 40000.0
-Prazo do financiamento: 15
-Taxa de juros anual: 11.0
+Valor do imóvel: 50000.0
+Prazo do financiamento: 18
+Taxa de juros anual: 10.0
 Número de vagas na garagem: 1
 Número do andar: 2
-Pagamento mensal: 5191.11111111111
-Total do pagamento: 77866.66666666666
+Pagamento mensal: 5172.592592592593
+Total do pagamento: 93106.66666666667
 
 Apartamento: 
-Valor do imóvel: 40000.0
-Prazo do financiamento: 15
-Taxa de juros anual: 11.0
+Valor do imóvel: 60000.0
+Prazo do financiamento: 72
+Taxa de juros anual: 9.0
 Número de vagas na garagem: 1
 Número do andar: 3
-Pagamento mensal: 5191.11111111111
-Total do pagamento: 77866.66666666666
+Pagamento mensal: 1538.3333333333335
+Total do pagamento: 110760.00000000001
 
 Terreno: 
-Valor do imóvel: 40000.0
-Prazo do financiamento: 15
-Taxa de juros anual: 11.0
+Valor do imóvel: 90000.0
+Prazo do financiamento: 36
+Taxa de juros anual: 8.0
 Tipo de zona: null
-Pagamento mensal: 5213.333333333333
-Total do pagamento: 78200.0
+Pagamento mensal: 4249.999999999999
+Total do pagamento: 152999.99999999997
 
 Terreno: 
-Valor do imóvel: 40000.0
-Prazo do financiamento: 15
-Taxa de juros anual: 11.0
+Valor do imóvel: 30000.0
+Prazo do financiamento: 24
+Taxa de juros anual: 12.0
 Tipo de zona: null
-Pagamento mensal: 5213.333333333333
-Total do pagamento: 78200.0
+Pagamento mensal: 2550.0
+Total do pagamento: 61200.0
 
